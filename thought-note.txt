@@ -1,0 +1,19 @@
+This is my capstone project of E-commerce website, I've named the website as "ChicDrobe", a combination of the words "Chic" and "Wardrobe"
+
+I've made everything as mentioned into the project task, I've applied Tailwind CSS into my whole project and for the carousel on the home page for the featured products, I've used swiper js. I have used a color combination of shades of purple like pastel purple, pure purple, light shade of pink, etc through out the website. 
+
+I've injected the header, navbar and footer onto every page dynamically using javascript. I've made every single separate html file for all the pages required in the project. 
+
+For the products data, I've made sample data for all women, men and kids section. For kids section, I've made it directly into the js file of kids whereas for men and women data, I've made separate json file from where I'm dynamically fetching the data in all the pages of them. 
+
+All the links are working, also in the footer the headings also lead to their ALL PRODUCTS page, except the "Links" heading as it is not leading anywhere. 
+
+Every part of the website is responsive and at the login form, validation has been done if the user enters the email 'admin@admin.com' and the password '123456'.
+
+I've also made the buttons working on the cart page, where user can increase or decrease the quantity of the product they want to buy and according to that, the total cart value will be calculated and the quantity cannot go below 0, I've implemented all of this logic using javascript.
+
+For the cards of the products, I've given 2 images of which one will be shown, and the other will be shown if someone hovers on the image (for the laptop/desktop users) and for the mobile users, when someone clicks on the image it will be transitioned to the other image, and to go back to the first image, they can either click on empty space on the screen or can click on the LEFT INDICATOR shown at the bottom of the image.
+
+I've added comments on the sections where I think they were required and I've made separate folders for HTML & JS files. I've made another folder for my CSS file and other resources which I've used in this project like some images and a font.
+
+This is the overview of my project, You can check and see all the features from the project itself incase I forgot to mention any. Hope you like it <3

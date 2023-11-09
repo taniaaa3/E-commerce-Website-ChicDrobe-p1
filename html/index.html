@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="../css & misc/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="nav"></div>
+    <div class="home sm:h-[550px] h-[400px]">
+        <div class="home-child w-full h-full flex flex-col justify-center items-center text-center">
+            <p class="text-4xl sm:text-5xl md:text-7xl font-bold chicdrobe">ChicDrobe</p>
+            <p class="text-3xl sm:text-4xl md:text-6xl font-bold my-3 text-center chicdrobe">Your one stop to a <span
+                    class="darl">Chic</span> Wardrobe</p>
+            <p class="text-4xl font-bold darl">By Taniya Darwani</p>
+        </div>
+    </div>
+    <h1 class="text-4xl text-center font-bold mt-5">FEATURED PRODUCTS</h1>
+
+    <!-- Swiper element -->
+    <div class="swiper mySwiper p-5">
+        <div class="swiper-wrapper featured">
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+
+    <div class="footer"></div>
+    <script src="../js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            autoplay: {
+                delay: 3000,
+            },
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 0
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 1,
+                    spaceBetween: 50
+                },
+                // when window width is >= 640px
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 10
+                },
+                930: {
+                    slidesPerView: 3,
+                    spaceBetween: 10
+                },
+                1250: {
+                    slidesPerView: 4,
+                    spaceBetween: 10
+                }
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+
+</html>

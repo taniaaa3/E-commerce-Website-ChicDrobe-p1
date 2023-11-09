@@ -1,0 +1,191 @@
+[
+  {
+    "name": "Superflex Shirt",
+    "type": "Shirt",
+    "price": 999,
+    "image": "https://www.snitch.co.in/cdn/shop/files/Untitled-3_7ab9a7e2-a0b4-4c2e-85c5-acc8d8326099.jpg?v=1685023571&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/files/Untitled-2_cd45e741-0054-40a7-bc9a-e50c4950d36b.jpg?v=1685023571&width=1800"
+  },
+  {
+    "name": "Bombay Checks Shirt",
+    "type": "Shirt",
+    "price": 799,
+    "image": "https://www.snitch.co.in/cdn/shop/files/4MSS2485-05-M64.webp?v=1698516207&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/files/4MSS2485-05-M2.webp?v=1698516207&width=1800"
+  },
+  {
+    "name": "Wrinkled Strip Shirt",
+    "type": "Shirt",
+    "price": 1099,
+    "image": "https://www.snitch.co.in/cdn/shop/files/4MSS2471-01-M38.webp?v=1698508956&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/files/4MSS2471-01-M1.webp?v=1698508956&width=1800"
+  },
+  {
+    "name": "Groundscape Light Brown Shirt",
+    "type": "Shirt",
+    "price": 1499,
+    "image": "https://www.snitch.co.in/cdn/shop/files/4MSS2332-03-M41.webp?v=1698577496&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/files/4MSS2332-03-M3.webp?v=1698577496&width=1800"
+  },
+  {
+    "name": "Sketch Leaf Shirt",
+    "type": "Shirt",
+    "price": 999,
+    "image": "https://www.snitch.co.in/cdn/shop/products/Augusto_23rdFeb3680.jpg?v=1678201443&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/products/Augusto_23rdFeb3651.jpg?v=1678201443&width=1800"
+  },
+  {
+    "name": "Scatter Box Shirt",
+    "type": "Shirt",
+    "price": 1399,
+    "image": "https://www.snitch.co.in/cdn/shop/files/4MSS1949-01-M0737.jpg?v=1685817898&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/files/4MSS1949-01-M0694.jpg?v=1685817898&width=1800"
+  },
+  {
+    "name": "Boho Art Shirt",
+    "type": "Shirt",
+    "price": 1299,
+    "image": "https://www.snitch.co.in/cdn/shop/files/4MSS2013-01-M41.jpg?v=1687443354&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/files/4MSS2013-01-M13.jpg?v=1687443354&width=1800"
+  },
+  {
+    "name": "Palmera Flamingo Shirt",
+    "type": "Shirt",
+    "price": 1499,
+    "image": "https://www.snitch.co.in/cdn/shop/files/4MSS1922-04-M5788.jpg?v=1685972332&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/files/4MSS1922-04-M5749.jpg?v=1685972332&width=1800"
+  },
+  {
+    "name": "Raw Grey Shirt",
+    "type": "Shirt",
+    "price": 899,
+    "image": "https://www.snitch.co.in/cdn/shop/products/Snitch_March22_0191.jpg?v=1648125424&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/products/Snitch_March22_0166.jpg?v=1648123771&width=1800"
+  },
+  {
+    "name": "Streetcargo Grey Pant",
+    "type": "Pants",
+    "price": 999,
+    "image": "https://www.snitch.co.in/cdn/shop/files/4MSO4533-05-3217.webp?v=1698688212&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/files/4MSO4533-05-3222.webp?v=1698688212&width=1800"
+  },
+  {
+    "name": "Formal Trousers",
+    "type": "Pants",
+    "price": 1699,
+    "image": "https://www.snitch.co.in/cdn/shop/files/4MSR5041-03-3218.jpg?v=1697467037&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/files/4MSR5041-03-321.jpg?v=1697460090&width=1800"
+  },
+  {
+    "name": "Weave Knit Trousers",
+    "type": "Pants",
+    "price": 1899,
+    "image": "https://www.snitch.co.in/cdn/shop/files/4MSR5038-09-3220.jpg?v=1696050144&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/files/4MSR5038-09-323.jpg?v=1696402078&width=1800"
+  },
+  {
+    "name": "Speedy Olive Jogger",
+    "type": "Pants",
+    "price": 1699,
+    "image": "https://www.snitch.co.in/cdn/shop/files/4MTP0011-05-3017_9e430ba5-57c2-4095-a0ba-b240ceb29258.jpg?v=1690736806&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/files/4MTP0011-05-3025.jpg?v=1690736806&width=1800"
+  },
+  {
+    "name": "Utility Cargo",
+    "type": "Pants",
+    "price": 999,
+    "image": "https://www.snitch.co.in/cdn/shop/files/4MTP0012-01-M18.jpg?v=1688994839&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/files/4MTP0012-01-M55.jpg?v=1688994839&width=1800"
+  },
+  {
+    "name": "Korean Style Cargo Pant",
+    "type": "Pants",
+    "price": 1599,
+    "image": "https://www.snitch.co.in/cdn/shop/files/4MSO4531-02-3216.jpg?v=1697865025&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/files/4MSO4531-02-321.jpg?v=1695885502&width=1800"
+  },
+  {
+    "name": "Enigma Baggy Jeans",
+    "type": "Pants",
+    "price": 1799,
+    "image": "https://www.snitch.co.in/cdn/shop/files/4MSD3615-0129.jpg?v=1692433276&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/files/4MSD3615-0138.jpg?v=1692431230&width=1800"
+  },
+  {
+    "name": "Vintage Skinny Jeans",
+    "type": "Pants",
+    "price": 1649,
+    "image": "https://www.snitch.co.in/cdn/shop/files/4MSD3580-04-3246.jpg?v=1690222146&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/files/4MSD3580-04-3263.jpg?v=1690222146&width=1800"
+  },
+  {
+    "name": "Streetstyle Cargo",
+    "type": "Pants",
+    "price": 1899,
+    "image": "https://www.snitch.co.in/cdn/shop/products/Augusto_1stMarch2405.jpg?v=1679250161&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/products/Augusto_1stMarch2412.jpg?v=1679158512&width=1800"
+  },
+  {
+    "name": "Black Hoodie Shirt",
+    "type": "Hoodies",
+    "price": 1499,
+    "image": "https://www.snitch.co.in/cdn/shop/files/4MSS1984-01-M14187.jpg?v=1686411907&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/files/4MSS1984-01-M14157.jpg?v=1686411907&width=1800"
+  },
+  {
+    "name": "Lilac Hoodie",
+    "type": "Hoodies",
+    "price": 1699,
+    "image": "https://www.snitch.co.in/cdn/shop/products/Pablo_Sep5723.jpg?v=1668153307&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/products/Pablo_Sep5697.jpg?v=1668153307&width=1800"
+  },
+  {
+    "name": "Calido Fleeced Hoodie",
+    "type": "Hoodies",
+    "price": 999,
+    "image": "https://www.snitch.co.in/cdn/shop/products/Heitor5738.jpg?v=1664469246&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/products/Heitor5719.jpg?v=1664461861&width=1800"
+  },
+  {
+    "name": "Hokusai Hoodie",
+    "type": "Hoodies",
+    "price": 1699,
+    "image": "https://www.snitch.co.in/cdn/shop/products/sergio1177.jpg?v=1666326586&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/products/sergio1190.jpg?v=1666326586&width=1800"
+  },
+  {
+    "name": "Fusion Hoodie",
+    "type": "Hoodies",
+    "price": 999,
+    "image": "https://www.snitch.co.in/cdn/shop/products/sergio0356.jpg?v=1666801280&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/products/sergio0326.jpg?v=1666801280&width=1800"
+  },
+  {
+    "name": "Legend Hoodie",
+    "type": "Hoodies",
+    "price": 899,
+    "image": "https://www.snitch.co.in/cdn/shop/products/sergio0183.jpg?v=1667547374&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/products/sergio0114.jpg?v=1667457817&width=1800"
+  },
+  {
+    "name": "Unleashed Hoodie",
+    "type": "Hoodies",
+    "price": 1299,
+    "image": "https://www.snitch.co.in/cdn/shop/files/NOTAG-HUSLER-M567858_0a028764-5709-42d3-bfa3-24385d0c5e78.jpg?v=1695813488&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/files/NOTAG-HUSLER-M567821_a56c78f8-0120-44fc-ba51-6fb083d3ecff.jpg?v=1695813488&width=1800"
+  },
+  {
+    "name": "Hyper Reality Blue Hoodie",
+    "type": "Hoodies",
+    "price": 3499,
+    "image": "https://www.snitch.co.in/cdn/shop/products/sergio0428.jpg?v=1666326323&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/products/sergio0385.jpg?v=1666326323&width=1800"
+  },
+  {
+    "name": "Funkie Hoodie",
+    "type": "Hoodies",
+    "price": 2299,
+    "image": "https://www.snitch.co.in/cdn/shop/products/sergio5672.jpg?v=1667457890&width=1080",
+    "image2": "https://www.snitch.co.in/cdn/shop/products/sergio5639ONLYFORmp.jpg?v=1667457890&width=1800"
+  }
+]

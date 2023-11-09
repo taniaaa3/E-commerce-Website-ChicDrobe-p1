@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link rel="stylesheet" href="../css & misc/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="nav"></div>
+    <div class="body flex flex-col sm:flex-row justify-center items-center m-2 sm:items-start">
+        <div class="flex flex-col border-[#CDB4DB] border m-3 justify-center items-center sm:w-1/2 w-full">
+            <h1 class="text-3xl font-bold bg-[#CDB4DB] w-full text-center">Items in cart</h1>
+            <div class=" flex flex-col sm:flex-row justify-between items-center">
+                <img class="w-1/2 sm:w-1/3"
+                    src="https://www.snitch.co.in/cdn/shop/files/4MSS1984-01-M14187.jpg?v=1686411907&width=1080"
+                    alt="product image">
+                <div class="flex flex-col justify-center items-center sm:items-start m-2">
+                    <h1 class="text-3xl font-bold text-center">Black Hoodie Shirt</h1>
+                    <p class="text-xl font-semibold">Price: 1499₹ <span class="line-through text-sm">2998₹</span> <i class="fa-solid fa-trash cursor-pointer" style="color: red;"></i> </p>
+                    
+                    <div class=" flex flex-row justify-center items-center sm:items-start">
+                        
+                        <button class="border-[#CDB4DB] p-2 px-4 font-semibold rounded-lg border m-2 hover:bg-[#CDB4DB]"
+                            onclick="sub()">-</button>
+                        <input type="number" id="quantity"
+                            class="border-[#CDB4DB] w-1/4 p-2 font-semibold rounded-lg border m-2">
+                        <button class="border-[#CDB4DB] p-2 px-4 font-semibold rounded-lg border m-2 hover:bg-[#CDB4DB]"
+                            onclick="add()">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col border-[#CDB4DB] border m-3 justify-between items-center sm:w-1/4 h-64 w-full">
+            <h1 class="text-3xl font-bold bg-[#CDB4DB] w-full text-center self-start">Summary</h1>
+            <div class="flex flex-row w-full my-2 px-3 justify-between items-center">
+                <p>Cost</p>
+                <p id="cost">1499₹</p>
+            </div>
+            <div class="flex flex-row w-full my-2 px-3 justify-between items-center"
+                style="border-bottom: 1px #CDB4DB solid; padding-bottom: 20px;">
+                <p>Shipping</p>
+                <p>99₹</p>
+            </div>
+            <div class="flex flex-row w-full my-3 px-3 justify-between items-center">
+                <p class="font-semibold">Total</p>
+                <p class="font-semibold" id="total"></p>
+            </div>
+            <button
+                class="border-[#CDB4DB] p-2 font-semibold rounded-lg border m-2 hover:bg-[#CDB4DB]">Checkout</button>
+        </div>
+    </div>
+    <div class="footer"></div>
+    <script src="../js/app.js"></script>
+    <script>
+        let input = document.querySelector('#quantity');
+        let price = document.querySelector('#cost');
+        let total = document.querySelector('#total');
+        let i = 1;
+        input.value = i;
+        total.innerHTML = `${1499 * i + 99}₹`;
+        const add = () => {
+            input.value = i += 1;
+            total.innerHTML = `${1499 * i + 99}₹`;
+        }
+        const sub = () => {
+            input.value = i -= 1;
+            total.innerHTML = `${1499 * i + 99}₹`;
+            if (i < 0) {
+                alert('Quantity cannot be less than 0');
+                i = 0;
+                input.value = i;
+                total.innerHTML = `0₹`;
+            }
+            else if(i == 0){
+                total.innerHTML = `0₹`;
+            }
+        }
+    </script>
+</body>
+
+</html>
